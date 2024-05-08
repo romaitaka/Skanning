@@ -12,6 +12,7 @@ body {
     color: black;
     background: black;
     font-family: Lato, Arial, sans-serif;
+    font-size: 24px;
 }
 
 body,
@@ -37,6 +38,15 @@ a {
     /* text-shadow: 2px 2px 4px black; */
 }
 
+p {
+    line-height: 1.5;
+}
+
+li,
+ol {
+    line-height: 1.5;
+}
+
 .container {
     min-width: 320px;
     max-width: 50vw;
@@ -57,13 +67,13 @@ a {
 .header__title {
     text-align: center;
     padding-block: 20px;
+    font-size: 30px;
 }
 
 .list {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-size: 20px;
 }
 
 .footer {
@@ -96,5 +106,5 @@ a {
 
 .blue__skin {
     color: #0d4cd3;
-    font-size: 16px;
+    font-size: 20px;
 }
