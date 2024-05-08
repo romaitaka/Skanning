@@ -11,6 +11,7 @@ html {
 body {
     color: black;
     background: black;
+    font-family: Lato, Arial, sans-serif;
 }
 
 body,
@@ -91,4 +92,9 @@ a {
     object-fit: fill;
     margin-right: auto;
     background-color: #fff;
+}
+
+.blue__skin {
+    color: #0d4cd3;
+    font-size: 16px;
 }
